@@ -1,0 +1,55 @@
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10%;
+}
+
+
+section , header ,form{
+max-width: 600px;
+width: 100%;
+margin: 0 auto ;
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: rgb(201, 201, 201);
+color:rgb(7, 1, 14);
+
+}
+table{
+    width: 100%;
+    padding:50px;  
+    text-align: center; 
+    font-size: 28px;
+    
+}
+th, td{
+
+border-bottom: 2px solid rgb(10, 10, 10);
+
+}
+
+section form input ,button{
+    margin: 5px;
+    width: 50%;
+    height: 38px;
+    font-size:24px ;
+    border-radius: 15px;
+    text-align: center;
+}
+button{
+    background-color: rgb(2, 2, 2);
+    color: aliceblue;
+}
+button:hover{
+    background-color: rgb(81, 82, 79);
+    cursor: pointer;
+    
+}
+#demo{
+border-bottom: 2px solid red;
+color: brown;
+font-weight: bold;
+}
